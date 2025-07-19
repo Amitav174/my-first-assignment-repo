@@ -27,7 +27,7 @@ section {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-  color: #4E47FF;
+ 
 }
 
 .raleway {
@@ -47,14 +47,37 @@ section {
     border: none;
     padding: 5px 12px;
 }
+.color-1{
+    color: #4E47FF;
+}
 /*1st section*/
 .mini-png{
-  border-radius: 48px;
+  border-radius: 35px;
 }
 
 main{
   display: flex;
-  margin: 50px 100px;
+  margin:50px 100px;
   align-items: center;
   justify-content:space-between;
+  
+}
+.active-users{
+  font-size: 80px;
+  font-weight: 800;
+
+}
+.Active-users{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+
+}
+.section-1{
+  background-color: cadetblue;
+  padding: 100px;
+  margin: 100px;
+  border: 0px;
+  border-radius: 30px;
+
 }
