@@ -1,33 +1,29 @@
-header{
-    background-image:  url(../styles/Assets/Hero-bg.png);;
-    margin: 100px o;
+header {
+  background-image: url(../styles/Assets/Hero-bg.png);
+  margin: 100px o;
 }
-.nav-inter{
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 50px;
+.nav-inter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 50px;
 }
 section {
   text-align: center; /* centers inline/inline-block elements */
-  padding: 50px 0;     /* optional spacing */
+  padding: 50px 0; /* optional spacing */
 }
 
 .center-button {
-  margin-top: 20px;    /* space between p and button */
+  margin-top: 20px; /* space between p and button */
 }
-
 
 /*text-font*/
 .open-sans-inter {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight:weight;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
- 
+  font-variation-settings: "wdth" 100;
 }
 
 .raleway {
@@ -40,44 +36,69 @@ section {
 }
 
 /*general text*/
-.general-button{
-    border-radius: 5px;
-    background-color:#4E47FF ;
-    color: white;
-    border: none;
-    padding: 5px 12px;
+.general-button {
+  border-radius: 5px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  padding: 5px 12px;
 }
-.color-1{
-    color: #4E47FF;
+.color-1 {
+  color: #4e47ff;
 }
 /*1st section*/
-.mini-png{
+.mini-png {
   border-radius: 35px;
 }
 
-main{
+main {
   display: flex;
-  margin:50px 100px;
+  margin: 50px 100px;
   align-items: center;
-  justify-content:space-between;
-  
+  justify-content: space-between;
 }
-.active-users{
+.active-users {
   font-size: 80px;
   font-weight: 800;
-
 }
-.Active-users{
+.Active-users {
   display: flex;
   justify-content: space-between;
   padding: 100px;
-
 }
-.section-1{
+.section-1 {
   background-color: cadetblue;
   padding: 100px;
   margin: 100px;
   border: 0px;
   border-radius: 30px;
-
+}
+.aside-4 {
+  display: flex;
+  align-items: center;
+}
+.section-a {
+  margin: 80px;
+}
+.review-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+.review-div-1 {
+  display: flex;
+}
+.reviewer {
+  gap: 5px;
+}
+.div-1 {
+  background-color: aliceblue;
+  padding: 20px 100px 20px 20px;
+  margin: 10px;
+  text-align: left;
+  border-radius: 20px;
+}
+.reviewer-image {
+  border-radius: 100px;
 }
